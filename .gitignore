@@ -1,0 +1,5 @@
+build
+node_modules
+yarn-error.log
+consumption_data.csv
+readings
