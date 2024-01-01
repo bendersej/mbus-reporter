@@ -16,6 +16,6 @@
     "typescript": "^5.0.4"
   },
   "scripts": {
-    "build": "tsc"
+    "generate-report": "ts-node src/index.ts"
   }
 }
