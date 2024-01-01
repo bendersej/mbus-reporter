@@ -7,11 +7,12 @@
 yarn install
 ```
 2. Place the CSV consumption data file at the root of the folder and rename it `consumption_data.csv`
-3. Run the report generation:
+3. Update the apartments mappings in `src/apartment_by_slave_id.ts`.
+4. Run the report generation:
 ```
 yarn run generate-report
 ```
-4. The resulting CSV will be available under the `./readings` folder
+5. The resulting CSV will be available under the `./readings` folder
 
 ## How to retrieve the consumption data
 
